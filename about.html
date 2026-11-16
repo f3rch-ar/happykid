@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HappyKid Games · Catálogo Free-To-Play</title>
+  <meta name="description" content="HappyKid es un estudio independiente dedicado al desarrollo de videojuegos con experiencias unicas, creativas y memorables.">
+  <meta name="author" content="HappyKid Studio">
+  <meta name="keywords" content="videojuegos, indie, pixel art, desarrollo de juegos, HappyKid">
+
+  <link rel="icon" href="happyKid.ico" type="image/x-icon">
+
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap nav-bar">
+      <a href="index.html" class="brand">🎮 HappyKid</a>
+      <nav aria-label="Navegación principal">
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+          <li><a href="about.html" aria-current="page">About Me</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="hero-section">
+      <h1>Sobre Nosotros · HappyKid</h1>
+      <p>Conocé al equipo detrás del desarrollo y las decisiones técnicas que dieron forma a este sitio.</p>
+    </section>
+
+    <!-- Fotos y roles integrante -->
+    <section aria-labelledby="titulo-equipo">
+      <h2 id="titulo-equipo" class="section-title">Integrantes del Grupo</h2>
+      <div class="team-grid">
+        <article class="member-card">
+          <img src="img/team/german-pix.png" alt="Foto de German Franco Lantaño Barrueta">
+          <h3>German Franco Lantaño Barrueta</h3>
+          <p class="role">Arquitectura JS & Consumo de API</p>
+          <p>Encargado de la modularización en JavaScript, modelado de datos con clases, peticiones con Fetch API y manejo de estados.</p>
+        </article>
+
+        <article class="member-card">
+          <img src="img/team/fernando-pix.png" alt="Foto de Fernando Carrazana Diaz">
+          <h3>Fernando Carrazana Diaz</h3>
+          <p class="role">Maquetación HTML5 & Diseño Responsive</p>
+          <p>Encargado de la estructura semántica de las tres páginas, implementación Mobile First y sistema de grillas.</p>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- Explicación del proyecto -->
+    <section class="about-details" aria-labelledby="titulo-proyecto">
+      <h2 id="titulo-proyecto" class="section-title">Sobre el Proyecto</h2>
+      <div class="details-grid">
+        <article class="detail-box">
+          <h3>🕹️ Temática e Identidad (HappyKid)</h3>
+          <p>Retomamos la identidad de nuestro grupo de desarrollo de videojuegos <strong>HappyKid</strong>. La interfaz utiliza un fondo oscuro profundo combinado con acentos cian y magenta neón para reflejar la estética arcade y gamer moderna.</p>
+        </article>
+
+        <article class="detail-box">
+          <h3>🌐 API Utilizada</h3>
+          <p>Consumimos <strong>FreeToGame API</strong> (<code>https://www.freetogame.com/api/games</code>), una API pública sin registro que devuelve un listado de juegos gratuitos con portada, género, plataforma y descripción en una sola petición.</p>
+        </article>
+
+        <article class="detail-box">
+          <h3>⚙️ Detalles Técnicos</h3>
+          <p>Desarrollado con HTML5 semántico, CSS3 bajo enfoque <strong>Mobile First</strong> con variables en <code>:root</code> y tres breakpoints (320px, 768px, 1024px), y JavaScript modular (ES Modules) separando datos, modelo y renderizado en el DOM.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p><strong>Integrantes:</strong> German Franco Lantaño Barrueta · Fernando Carrazana Diaz</p>
+      <p>
+        Repositorio: <a href="https://github.com/f3rch-ar/happykid" target="_blank" rel="noopener">github.com/f3rch-ar/happykid</a>
+        | Datos: FreeToGame API
+      </p>
+    </div>
+  </footer>
+  
+</body>
+</html>

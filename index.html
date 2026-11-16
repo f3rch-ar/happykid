@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HappyKid Games · Catálogo Free-To-Play</title>
+  <meta name="description" content="HappyKid es un estudio independiente dedicado al desarrollo de videojuegos con experiencias unicas, creativas y memorables.">
+  <meta name="author" content="HappyKid Studio">
+  <meta name="keywords" content="videojuegos, indie, pixel art, desarrollo de juegos, HappyKid">
+
+  <link rel="icon" href="happyKid.ico" type="image/x-icon">
+
+  <link rel="stylesheet" href="css/styles.css">
+
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap nav-bar">
+      <a href="index.html" class="brand">🎮 HappyKid</a>
+      <nav aria-label="Navegación principal">
+        <ul class="nav-list">
+          <li><a href="index.html" aria-current="page">Home</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+          <li><a href="about.html">About Me</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="hero-section">
+      <h1>Catálogo Gamer · HappyKid</h1>
+      <p>Explorá una selección de videojuegos gratuitos obtenida en tiempo real desde FreeToGame API.</p>
+    </section>
+
+    <section aria-labelledby="titulo-catalogo">
+      <h2 id="titulo-catalogo" class="section-title">Juegos Destacados</h2>
+      <div id="estado-api" aria-live="polite"></div>
+      <div id="contenedor-cards" class="cards-grid"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p><strong>Integrantes:</strong> German Franco Lantaño Barrueta · Fernando Carrazana Diaz</p>
+      <p>
+        Repositorio: <a href="https://github.com/f3rch-ar/happykid" target="_blank" rel="noopener">github.com/f3rch-ar/happykid</a>
+        | Datos: FreeToGame API
+      </p>
+    </div>
+  </footer>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
